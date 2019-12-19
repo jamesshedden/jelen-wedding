@@ -49,7 +49,7 @@ p {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 16px;
   margin-bottom: 20px;
   font-weight: 600;
 }
@@ -126,7 +126,7 @@ strong {
 }
 
 @media (min-width: 400px) {
-  .lead {
+  .lead, h2 {
     font-size: 20px;
   }
 
