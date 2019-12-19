@@ -1,0 +1,165 @@
+html,
+body {
+  height: 100%;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background: #F9F5D8;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p, .text-base {
+  font-family: stratos-lights, Stratos, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+  letter-spacing: 0.4px;
+  color: #313248;
+}
+
+.text-heading {
+  font-family: stratos, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+  letter-spacing: 0.4px;
+  color: #B4828A;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.lead {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #44828A;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.container {
+    padding: 40px;
+}
+
+.background-yellow {
+    background: #767676;
+}
+
+.heading-container {
+  display: inline-block;
+  position: relative;
+}
+
+.heading-container::after,
+.heading-container::before {
+  display: block;
+  content: '';
+  width: 6px;
+  height: 7px;
+  background: url('images/heading-decoration.png');
+  background-size: 100% 100%;
+  top: 14px;
+  position: absolute;
+}
+
+.heading-container::after {
+  left: -11px;
+}
+
+.heading-container::before {
+  right: -11px;
+}
+
+strong {
+  font-family: stratos, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif !important;
+}
+
+.background-yellow {
+  background: #F5EBBE;
+}
+
+.background-image {
+  background: url(images/header-background.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.header-names-image {
+  width: 90%;
+  max-width: 425px;
+  height: auto;
+}
+
+.divider-moon {
+  width: 135px;
+  height: auto;
+}
+
+@media (min-width: 400px) {
+  .lead {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 740px) {
+  .container {
+    width: 550px;
+    margin: 0 auto;
+    padding: 50px 20px;
+  }
+
+  .header-names-image {
+    width: 425px;
+    height: auto;
+  }
+}
+
+.margin-bottom-small {
+  margin-bottom: 10px;
+}
+
+.margin-bottom-large {
+  margin-bottom: 40px;
+}
+
+.remove-margin-bottom {
+  margin-bottom: 0;
+}
+
+.color-light {
+  color: #F9F5D8;
+}
