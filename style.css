@@ -89,7 +89,7 @@ a:hover {
   height: 7px;
   background: url('images/heading-decoration.png');
   background-size: 100% 100%;
-  top: 14px;
+  top: 11px;
   position: absolute;
 }
 
@@ -145,6 +145,12 @@ strong {
   .header-names-image {
     width: 425px;
     height: auto;
+  }
+
+  .heading-container::after,
+  .heading-container::before {
+    top: 14px;
+    position: absolute;
   }
 }
 
